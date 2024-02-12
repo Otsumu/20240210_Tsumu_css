@@ -30,7 +30,7 @@
 }
 
 .firstview {
-    margin: 100px 0 0 auto;
+    margin: 120px 0 0 auto;
     width: 45%;
     height: 30%;
     z-index: 10;
@@ -39,22 +39,22 @@
 
 .title {
     position: absolute;
-    top: 52%;
+    top: 40%;
     font-size: 120px;
-    font-weight:200;
+    font-weight: 100;
 }
 
 .rectangle {
     position: absolute;
-    top: 80%;
+    top: 68%;
     background-color: navy;
     width: 70%;
-    height: 38%;
+    height: 45%;
     z-index: -10;
 
 }
 
-@media screen and (max-width: 1500px)  {
+@media screen and (max-width: 1000px), screen and (max-width: 1500px)  {
     body {
         width: 100%;
     }
