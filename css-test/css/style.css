@@ -22,11 +22,14 @@
 }
 
 .header-nav-item:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 40px;
+}
+
+.main {
+    position: relative;
 }
 
 .firstview {
-    position: relative;
     margin: 100px 0 0 auto;
     width: 45%;
     height: 30%;
@@ -36,17 +39,17 @@
 
 .title {
     position: absolute;
-    top: 42%;
+    top: 52%;
     font-size: 120px;
     font-weight:200;
 }
 
 .rectangle {
     position: absolute;
-    top: 60%;
+    top: 80%;
     background-color: navy;
     width: 70%;
-    height: 35%;
+    height: 38%;
     z-index: -10;
 
 }
