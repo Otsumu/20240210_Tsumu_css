@@ -39,17 +39,17 @@
 
 .title {
     position: absolute;
-    top: 40%;
-    font-size: 120px;
+    top: 20%;
+    font-size: 78px;
     font-weight: 100;
 }
 
 .rectangle {
     position: absolute;
-    top: 68%;
+    top: 70%;
     background-color: navy;
     width: 70%;
-    height: 45%;
+    height: 50%;
     z-index: -10;
 
 }
